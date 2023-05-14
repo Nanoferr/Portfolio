@@ -5,7 +5,7 @@ import meter2 from "../assets/img/logo2.png";
 import meter3 from "../assets/img/logo3.png";
 import meter4 from "../assets/img/logo4.png";
 import meter5 from "../assets/img/logo5.png";
-import meter6 from "../assets/img/logo6.png";
+import meter6 from "../assets/img/logo6b.svg";
 
 
 
@@ -18,7 +18,7 @@ export const Skills = () => {
         },
         desktop: {
           breakpoint: { max: 3000, min: 1024 },
-          items: 3
+          items: 4
         },
         tablet: {
           breakpoint: { max: 1024, min: 464 },
@@ -37,7 +37,8 @@ export const Skills = () => {
                     <div className="col-12">
                         <div className="skill-bx wow zoomIn">
                             <h2>Habilidades</h2>
-                            <p>Tecnologias utilizadas hasta el momento. Me encuentro en constante aprendizaje de nuevos lenguajes.</p>
+                            <p>Soy una persona <b>proactiva</b> que busca siempre aprender nuevos lenguajes y herramientas, puedo <b>trabajar en equipo</b> para llevar a cabo proyectos usando metodologias agiles para el seguimiento de tareas. Estos son algunos de los lenguajes que mas utilizo, pero constantemente estoy aprendiendo de manera autodidacta nuevas tecnologías que me llamen la atención.                               
+                            </p>
                             <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                                 <div className="item">
                                     <img src={meter1} alt="Image" />
@@ -62,7 +63,7 @@ export const Skills = () => {
                                 </div>          
                                 <div className="item">
                                     <img src={meter4} alt="Image" />
-                                    <h5>Bootstrap</h5>
+                                    <h5>React</h5>
                                     <div className="item-bar">
                                         <div className="progress" style={{width: "70%"}}></div>
                                     </div>
@@ -76,7 +77,7 @@ export const Skills = () => {
                                 </div>
                                 <div className="item">
                                     <img src={meter6} alt="Image" />
-                                    <h5>React</h5>
+                                    <h5>Bootstrap</h5>
                                     <div className="item-bar">
                                         <div className="progress" style={{width: "45%"}}></div>
                                     </div>

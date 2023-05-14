@@ -11,7 +11,7 @@ export const Projects = () => {
     const projects = [
         {
             title: "Valorant Vanilla JS",
-            description: "Utilidades para jugadores de Valorant",
+            description: "Suelo jugar Valorant con amigos y decidí crear esta web con utilidades para jugadores de Valorant, creada con Html, Css, Bootstrap y Javascript.",
             imgUrl: projImg1,
         },
         {
@@ -21,7 +21,7 @@ export const Projects = () => {
         },
         {
             title: "Web de Estudio Juridico",
-            description: "Pagina web para la prestación de servicios legales",
+            description: "Pagina web para la prestación de servicios legales creada con React, Tailwind, JavaScript y Node.js",
             imgUrl: projImg3,
         },
     ];
@@ -36,7 +36,7 @@ export const Projects = () => {
                   {({ isVisible }) =>
                   <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                     <h2>Proyectos</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <p>Me gusta realizar proyectos como metodologia de aprendizaje a medida que voy adquiriendo conocimientos sobre las tecnologias. No vengo a inventar la rueda, pero si busco que cada proyecto tenga originalidad y personalidad.</p>
                     <Tab.Container id="projects-tabs" defaultActiveKey="first">
                       <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                         <Tab.Pane eventKey="first">

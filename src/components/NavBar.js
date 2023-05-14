@@ -49,7 +49,7 @@ export const NavBar = () => {
                   <a href="https://mail.google.com/mail/u/1/?pli=1#inbox?compose=new" target="_blank" rel="noopener noreferrer"><img src={navIcon2} alt="" /></a>
                   <a href="https://github.com/Nanoferr" target="_blank" rel="noopener noreferrer"><img src={navIcon3} alt="Icon" /></a>
                 </div>
-                  <button className="vvd"><span>Conectar</span></button>
+                <a href="#contact"><button className="vvd"><span>Conectar</span></button></a>
               </span>
             </Navbar.Collapse>
           </Container>

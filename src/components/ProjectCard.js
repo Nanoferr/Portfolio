@@ -1,4 +1,4 @@
-import { Col } from "react-bootstrap";
+import { Col, ListGroupItem } from "react-bootstrap";
 
 
 export const ProjectCard = ({ title, description, imgUrl }) => {
@@ -13,3 +13,4 @@ export const ProjectCard = ({ title, description, imgUrl }) => {
         </Col>
     )
 }
+

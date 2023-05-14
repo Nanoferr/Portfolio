@@ -413,7 +413,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .skill-slider .item img:hover {
   transform: rotate(360deg);
-  transition: all 2.5s ease-in-out;
+  transition: all 1.5s ease-in-out;
 }
 
 #skills {
@@ -421,10 +421,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .item-bar {
-  width: 175px;
-  margin: auto;
+  min-width: 1vh;
+  margin: 1rem;
   background: rgba(225,225,225,0.5);
   border-radius: 10px;
+  display: flex;
 }
 
 .item-bar .progress {  
@@ -559,38 +560,57 @@ background: rgb(24, 24, 168);
   z-index: -4;
 }
 
-/************ Contact / About Me Css ************/
+/************ Contact Css ************/
 .contact {
-  padding: 60px 0 100px 0;
+  padding: 50px 0 70px 0;
+  align-items: center;
+  justify-content: center;
+  background: #290f47;
 }
 
-.contact .social-icon {
-  margin-left: 50%;
-  margin-top: 20%;
+.contact h2 {
+	font-size: 45px;
+	font-weight: 700;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 90px;
 }
+
+.contact-mail p  {
+	font-size: 25px;
+	font-weight: 400;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.contact-items {
+  align-items: center;
+}
+
+#social-icon, .contact-mail {
+  display: flex;
+}
+
 /************ Footer Css ************/
 .footer {
-  padding: 0 0 50px 0;
+  padding: 0 0 1px 0;
   background-color: black;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-
-.footer img {
-  width: 26%;
-}
 .footer p {
   font-weight: 400;
   font-size: 14px;
   color: #B8B8B8;
   letter-spacing: 0.5px;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 .footer .social-icon {
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 
