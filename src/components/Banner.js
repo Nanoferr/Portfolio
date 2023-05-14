@@ -1,19 +1,21 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/header-img.svg";
+import headerImg from "../assets/img/foto-header2.png";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import verPdf from "../assets/pdf/Curriculum-Vitae-final-Fernando-Maldonado.pdf";
 
 
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
     const[isDeleting, setIsDeleting] = useState(false);
-    const toRotate = [ "Desarrollador Frontend", "Project Manager", "Abogado Informatico" ];
+    const toRotate = [ "Desarrollador Web", "Project Manager", "Autodidacta" ];
     const [text, setText] = useState('');
     const period = 2000;
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const [index, setIndex] = useState(1);
+    
 
     useEffect(() => {
         let ticker = setInterval(() => {
@@ -57,8 +59,8 @@ export const Banner = () => {
                             <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                             <span className="tagline">Bienvenido a mi Portafolio</span>
                             <h1>{`Hola!, soy Fer. `}<span className="wrap">{text}</span></h1>
-                            <p>Estudiante autodidacta de Programación, Abogado,  </p>
-                            <button onClick={() => console.log('connect')} >Mi Curriculum<ArrowRightCircle size={25} /> </button>
+                            <p>Estudiante autodidacta de Programación, Abogado studiante autodidacta de Programación, Abogado studiante autodidacta de Programación, Abogado studiante autodidacta de Programación, Abogado studiante autodidacta de Programación, Abogado,  </p>
+                            <button><a href={verPdf} target="_blank" rel="noopener noreferrer" download="CV Fernando Maldonado">Mi Curriculum<ArrowRightCircle size={25}/></a></button>
                             </div>}
                         </TrackVisibility>
                     </Col>

@@ -42,26 +42,44 @@ export const Skills = () => {
                                 <div className="item">
                                     <img src={meter1} alt="Image" />
                                     <h5>HTML</h5>
+                                    <div className="item-bar">
+                                        <div className="progress" style={{width: "85%"}}></div>
+                                    </div>
                                 </div>
                                 <div className="item">
                                     <img src={meter2} alt="Image" />
                                     <h5>CSS</h5>
+                                    <div className="item-bar">
+                                        <div className="progress" style={{width: "75%"}}></div>
+                                    </div>
                                 </div>
                                 <div className="item">
                                     <img src={meter3} alt="Image" />
                                     <h5>Javascript</h5>
+                                    <div className="item-bar">
+                                        <div className="progress" style={{width: "60%"}}></div>
+                                    </div>
                                 </div>          
                                 <div className="item">
                                     <img src={meter4} alt="Image" />
                                     <h5>Bootstrap</h5>
+                                    <div className="item-bar">
+                                        <div className="progress" style={{width: "70%"}}></div>
+                                    </div>
                                 </div>
                                 <div className="item">
                                     <img src={meter5} alt="Image" />
                                     <h5>Github</h5>
+                                    <div className="item-bar">
+                                        <div className="progress" style={{width: "65%"}}></div>
+                                    </div>
                                 </div>
                                 <div className="item">
                                     <img src={meter6} alt="Image" />
                                     <h5>React</h5>
+                                    <div className="item-bar">
+                                        <div className="progress" style={{width: "45%"}}></div>
+                                    </div>
                                 </div>
                             </Carousel>
                         </div>

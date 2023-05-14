@@ -164,7 +164,7 @@ nav.navbar {
 
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: #2D2056;
+  background-color: #290f47;
 }
 nav.navbar a.navbar-brand {
     width: 9%;
@@ -309,7 +309,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-color: #1B2222;
+  background-color: #120d1888;
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -359,6 +359,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .banner img {
   animation: updown 3s linear infinite;
+  
+  
 }
 @keyframes updown {
     0% {
@@ -381,7 +383,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: relative;
 }
 .skill-bx {
-  background: #2D2056;
+  background: #290f47;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
@@ -406,16 +408,34 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill-slider .item img {
   width: 50%;
   margin: 0 auto 15px auto;
+  cursor: pointer;
+}
+
+.skill-slider .item img:hover {
+  transform: rotate(360deg);
+  transition: all 2.5s ease-in-out;
 }
 
 #skills {
-  background-color: black;
+  background-image: url('./assets/img/fondo1.jpg');
 }
+
+.item-bar {
+  width: 175px;
+  margin: auto;
+  background: rgba(225,225,225,0.5);
+  border-radius: 10px;
+}
+
+.item-bar .progress {  
+background: rgb(24, 24, 168);
+}
+
 /************ Projects Css ************/
 .project {
   padding: 80px 0;
   position: relative;
-  background-color: #1B2222;
+  background-color: #120d1888;
 }
 .project h2 {
 	font-size: 45px;
@@ -539,6 +559,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
+/************ Contact / About Me Css ************/
+.contact {
+  padding: 60px 0 100px 0;
+}
+
+.contact .social-icon {
+  margin-left: 50%;
+  margin-top: 20%;
+}
 /************ Footer Css ************/
 .footer {
   padding: 0 0 50px 0;
