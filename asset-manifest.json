@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.4a460401.css",
-    "main.js": "/portfolio/static/js/main.de7309a8.js",
+    "main.css": "/portfolio/static/css/main.d06b2300.css",
+    "main.js": "/portfolio/static/js/main.c28c6b1a.js",
     "static/media/foto-header2.png": "/portfolio/static/media/foto-header2.30d42b56754bf193b1d4.png",
     "static/media/Curriculum-Vitae-final-Fernando-Maldonado.pdf": "/portfolio/static/media/Curriculum-Vitae-final-Fernando-Maldonado.157dc98253fb31fb9061.pdf",
     "static/media/fondo1.jpg": "/portfolio/static/media/fondo1.10f7914777db07866a50.jpg",
@@ -23,11 +23,11 @@
     "static/media/logo6b.svg": "/portfolio/static/media/logo6b.d180fe4cd44732fd70b35f650a76b99c.svg",
     "index.html": "/portfolio/index.html",
     "static/media/nav-icon1.svg": "/portfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
-    "main.4a460401.css.map": "/portfolio/static/css/main.4a460401.css.map",
-    "main.de7309a8.js.map": "/portfolio/static/js/main.de7309a8.js.map"
+    "main.d06b2300.css.map": "/portfolio/static/css/main.d06b2300.css.map",
+    "main.c28c6b1a.js.map": "/portfolio/static/js/main.c28c6b1a.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a460401.css",
-    "static/js/main.de7309a8.js"
+    "static/css/main.d06b2300.css",
+    "static/js/main.c28c6b1a.js"
   ]
 }
