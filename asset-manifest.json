@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d06b2300.css",
-    "main.js": "/portfolio/static/js/main.c28c6b1a.js",
+    "main.css": "/portfolio/static/css/main.04aabbfe.css",
+    "main.js": "/portfolio/static/js/main.900ca3bf.js",
     "static/media/foto-header2.png": "/portfolio/static/media/foto-header2.30d42b56754bf193b1d4.png",
     "static/media/Curriculum-Vitae-final-Fernando-Maldonado.pdf": "/portfolio/static/media/Curriculum-Vitae-final-Fernando-Maldonado.157dc98253fb31fb9061.pdf",
     "static/media/fondo1.jpg": "/portfolio/static/media/fondo1.10f7914777db07866a50.jpg",
+    "static/media/proyectoej.jpg": "/portfolio/static/media/proyectoej.c13d6a0b0aa2d257e765.jpg",
+    "static/media/proyectovalorant.jpg": "/portfolio/static/media/proyectovalorant.061692af4b6a00b1795f.jpg",
     "static/media/logo4.png": "/portfolio/static/media/logo4.6bcffb56bd0efaa47767.png",
+    "static/media/proyectocommerce.jpg": "/portfolio/static/media/proyectocommerce.807270ca398ae6edc764.jpg",
     "static/media/CentraNo2-Bold.ttf": "/portfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/portfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/portfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
-    "static/media/project-img1.png": "/portfolio/static/media/project-img1.d593db3f12901bc685c2.png",
-    "static/media/project-img2.png": "/portfolio/static/media/project-img2.2e52097c417f9f1134b0.png",
-    "static/media/project-img3.png": "/portfolio/static/media/project-img3.675b30d2f975a1bc1d09.png",
     "static/media/EnterPNG.png": "/portfolio/static/media/EnterPNG.7cd70238e1c5b96abfae.png",
     "static/media/logo2.png": "/portfolio/static/media/logo2.bc75ccc78e3bf74f8aed.png",
     "static/media/revicons.eot": "/portfolio/static/media/revicons.a77de540a38981833f9e.eot",
@@ -23,11 +23,11 @@
     "static/media/logo6b.svg": "/portfolio/static/media/logo6b.d180fe4cd44732fd70b35f650a76b99c.svg",
     "index.html": "/portfolio/index.html",
     "static/media/nav-icon1.svg": "/portfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
-    "main.d06b2300.css.map": "/portfolio/static/css/main.d06b2300.css.map",
-    "main.c28c6b1a.js.map": "/portfolio/static/js/main.c28c6b1a.js.map"
+    "main.04aabbfe.css.map": "/portfolio/static/css/main.04aabbfe.css.map",
+    "main.900ca3bf.js.map": "/portfolio/static/js/main.900ca3bf.js.map"
   },
   "entrypoints": [
-    "static/css/main.d06b2300.css",
-    "static/js/main.c28c6b1a.js"
+    "static/css/main.04aabbfe.css",
+    "static/js/main.900ca3bf.js"
   ]
 }
