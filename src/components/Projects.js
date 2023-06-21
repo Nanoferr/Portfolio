@@ -1,8 +1,8 @@
 import { Row, Col, Tab, Nav, Container } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg1 from "../assets/img/proyectovalorant.jpg";
+import projImg2 from "../assets/img/proyectocommerce.jpg";
+import projImg3 from "../assets/img/proyectoej.jpg";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -13,6 +13,7 @@ export const Projects = () => {
             title: "Valorant Vanilla JS",
             description: "Suelo jugar Valorant con amigos y decidí crear esta web con utilidades para jugadores de Valorant, creada con Html, Css, Bootstrap y Javascript.",
             imgUrl: projImg1,
+            link: "https://nanoferr.github.io/ValorantJs/index.html",
         },
         {
             title: "Web de Emprendimiento",
@@ -23,6 +24,7 @@ export const Projects = () => {
             title: "Web de Estudio Juridico",
             description: "Pagina web para la prestación de servicios legales creada con React, Tailwind, JavaScript y Node.js",
             imgUrl: projImg3,
+            link: "https://estudiojuridicomm.vercel.app",
         },
     ];
 

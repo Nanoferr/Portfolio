@@ -6,6 +6,7 @@ import meter3 from "../assets/img/logo3.png";
 import meter4 from "../assets/img/logo4.png";
 import meter5 from "../assets/img/logo5.png";
 import meter6 from "../assets/img/logo6b.svg";
+import meter7 from "../assets/img/tailwind.png"
 
 
 
@@ -78,6 +79,13 @@ export const Skills = () => {
                                 <div className="item">
                                     <img src={meter6} alt="Image" />
                                     <h5>Bootstrap</h5>
+                                    <div className="item-bar">
+                                        <div className="progress" style={{width: "45%"}}></div>
+                                    </div>
+                                </div>
+                                <div className="item">
+                                    <img src={meter7} alt="Image" />
+                                    <h5>Tailwind</h5>
                                     <div className="item-bar">
                                         <div className="progress" style={{width: "45%"}}></div>
                                     </div>
