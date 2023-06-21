@@ -589,7 +589,6 @@ background: rgb(24, 24, 168);
 }
 
 .footer-div p:hover {
-  transform: scale(0.9);
   color: white;
 }
 
