@@ -10,7 +10,7 @@ import verPdf from "../assets/pdf/Curriculum-Vitae-final-Fernando-Maldonado.pdf"
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
     const[isDeleting, setIsDeleting] = useState(false);
-    const toRotate = [ "Desarrollador Web", "Abogado UBA", "Autodidacta" ];
+    const toRotate = [ "Desarrollador Front-End", "Gamer", "Autodidacta" ];
     const [text, setText] = useState('');
     const period = 1000;
     const [delta, setDelta] = useState(290 - Math.random() * 100);
@@ -59,7 +59,7 @@ export const Banner = () => {
                             <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                             <span className="tagline">Bienvenido a mi Portafolio</span>
                             <h1>{`Soy Fer! `}<span className="wrap">{text}</span></h1>
-                            <p>Desarrollador Web. Me recibí de Abogado en la Universidad de Buenos Aires, y luego de algunos años de ejercer el derecho, decidí reinventarme y estudiar programación de manera autodidacta. Actualmente me encuentro profundizando en el desarrollo Front-End, pero estoy constantemente aprendiendo sobre nuevas tecnologías. </p>
+                            <p>Me recibí de Abogado en la Universidad de Buenos Aires, y luego de algunos años de ejercer el Derecho, decidí reinventarme y estudiar programación. Actualmente me encuentro profundizando en el desarrollo Front-End, pero estoy constantemente aprendiendo sobre nuevas tecnologías. </p>
                             <button><a href={verPdf} target="_blank" rel="noopener noreferrer" download="CV Fernando Maldonado">Mi Curriculum<ArrowRightCircle size={25}/></a></button>
                             </div>}
                         </TrackVisibility>

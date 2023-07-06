@@ -38,7 +38,7 @@ export const Skills = () => {
                     <div className="col-12">
                         <div className="skill-bx wow zoomIn">
                             <h2>Habilidades</h2>
-                            <p>Soy una persona <b>proactiva</b> que busca siempre aprender nuevos lenguajes y herramientas, puedo <b>trabajar en equipo</b> para llevar a cabo proyectos usando metodologias agiles para el seguimiento de tareas. Estos son algunos de los lenguajes que mas utilizo, pero constantemente estoy aprendiendo de manera autodidacta nuevas tecnologías que me llamen la atención.                               
+                            <p>Busco constantemente mejorar y aprender nuevos lenguajes, puedo <b>trabajar en equipo</b> para llevar a cabo proyectos usando metodologias agiles. Algunas de las tecnologías que estoy utilizando son:                            
                             </p>
                             <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                                 <div className="item">
