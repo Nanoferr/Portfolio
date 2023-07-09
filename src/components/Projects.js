@@ -1,7 +1,6 @@
 import { Row, Col, Tab, Nav, Container } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/proyectovalorant.jpg";
-import projImg2 from "../assets/img/proyectocommerce.jpg";
 import projImg3 from "../assets/img/proyectoej.jpg";
 import projImg4 from "../assets/img/proyectorick.jpg"
 import 'animate.css';
@@ -17,22 +16,17 @@ export const Projects = () => {
             link: "https://nanoferr.github.io/ValorantJs/index.html",
         },
         {
-            title: "Web de Emprendimiento",
-            description: "Pagina Web para un emprendimiento de negocio",
-            imgUrl: projImg2,
-        },
-        {
-            title: "Web de Estudio Juridico",
-            description: "Pagina web para la prestación de servicios legales creada con React, Tailwind y JavaScript",
-            imgUrl: projImg3,
-            link: "https://estudiojuridicomm.vercel.app",
-        },
-        {
           title: "Wiki de Rick and Morty",
           description: "Web realizada con Next.js13 y Tailwind, fetching de una API publica de la serie Rick and Morty",
           imgUrl: projImg4,
           link: "https://rickandmorty-next-alpha.vercel.app/",
       },
+        {
+            title: "Web de Estudio Juridico",
+            description: "Pagina web para la prestación de servicios legales creada con React, Tailwind y JavaScript",
+            imgUrl: projImg3,
+            link: "https://estudiojuridicomm.vercel.app",
+        }
     ];
 
 
