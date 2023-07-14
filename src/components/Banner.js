@@ -4,7 +4,7 @@ import headerImg from "../assets/img/foto-header2.png";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-import verPdf from "../assets/pdf/Curriculum-Vitae-final-Fernando-Maldonado.pdf";
+import verPdf from "../assets/pdf/cv.pdf";
 
 
 export const Banner = () => {
