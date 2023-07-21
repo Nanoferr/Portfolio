@@ -55,7 +55,9 @@ export const ContactForm = ()  => {
                         </div>
                     </div>
                 </div>
+                <div className='row p-2'>
                 <button type="submit" className="btn btn-primary" value="Send">Enviar</button>
+                </div>
             </form>
             <div className="status"></div>
         </div>     
