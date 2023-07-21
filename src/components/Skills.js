@@ -37,9 +37,7 @@ export const Skills = () => {
                 <div className="row">
                     <div className="col-12">
                         <div className="skill-bx wow zoomIn">
-                            <h2>Habilidades</h2>
-                            <p>Busco constantemente mejorar y aprender nuevos lenguajes, puedo <b>trabajar en equipo</b> para llevar a cabo proyectos usando metodologias agiles. Algunas de las tecnologías que estoy utilizando son:                            
-                            </p>
+                            <h2 className="p-5">Habilidades</h2>                         
                             <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                                 <div className="item">
                                     <img src={meter1} alt="" />

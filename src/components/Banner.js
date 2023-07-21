@@ -59,7 +59,7 @@ export const Banner = () => {
                             <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                             <span className="tagline">Bienvenido a mi Portafolio</span>
                             <h1>{`Soy Fer! `}<span className="wrap">{text}</span></h1>
-                            <p>Me recibí de Abogado en la Universidad de Buenos Aires, y luego de algunos años de ejercer el Derecho, decidí reinventarme y estudiar programación. Actualmente me encuentro profundizando en el desarrollo Front-End, pero estoy constantemente aprendiendo sobre nuevas tecnologías. </p>
+                            <p>Luego de algunos años de ejercer como Abogado, decidí reinventarme y estudiar programación.</p>
                             <button><a href={verPdf} target="_blank" rel="noopener noreferrer" download="CV Fernando Maldonado">Mi Curriculum<ArrowRightCircle size={25}/></a></button>
                             </div>}
                         </TrackVisibility>
