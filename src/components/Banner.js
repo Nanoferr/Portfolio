@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/foto-header2.png";
+import headerImg from "../assets/img/foto-header3.png";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -10,7 +10,7 @@ import verPdf from "../assets/pdf/cv.pdf";
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
     const[isDeleting, setIsDeleting] = useState(false);
-    const toRotate = [ "Desarrollador Front-End", "Gamer", "Autodidacta" ];
+    const toRotate = [ "Desarrollador Front-End" ];
     const [text, setText] = useState('');
     const period = 1000;
     const [delta, setDelta] = useState(290 - Math.random() * 100);
@@ -60,12 +60,11 @@ export const Banner = () => {
                             <span className="tagline">Bienvenido a mi Portafolio</span>
                             <h1>{`Soy Fer! `}<span className="wrap">{text}</span></h1>
                             <p>Luego de algunos años de ejercer como Abogado, decidí reinventarme y estudiar programación.</p>
-                            <button><a href={verPdf} target="_blank" rel="noopener noreferrer" download="CV Fernando Maldonado">Mi Curriculum<ArrowRightCircle size={25}/></a></button>
                             </div>}
                         </TrackVisibility>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
-                        <img src={headerImg} alt="Headder Img" />
+                        <img src={headerImg} className="rounded-circle" alt="Headder Img" />
                     </Col>
                 </Row>
             </Container>

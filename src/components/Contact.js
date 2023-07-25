@@ -12,7 +12,9 @@ export const Contact = () => {
                     <h2>
                         Contactame
                     </h2>
-                    <ContactForm />
+                    <div>
+                    <ContactForm/>
+                    </div>
                  </div>
                 </Row>  
             </Col>
