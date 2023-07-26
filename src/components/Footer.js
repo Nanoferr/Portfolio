@@ -1,4 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
+import { Link } from "react-scroll";
 
 export const Footer = () => {
   return (
@@ -8,18 +9,18 @@ export const Footer = () => {
           <Col size={12} sm={6}>
             <div className="footer-div">
               <div>
-                <p><a>Inicio</a></p>
+                <p><Link to="home" smooth={true} offset={50} duration={500}>Inicio</Link></p>
               </div>
               <div>
-                <p><a>Habilidades</a></p>
+                <p><Link to="skills" smooth={true} offset={50} duration={500}>Habilidades</Link></p>
               </div>
               <div>
-                <p><a>Proyectos</a></p>
+                <p><Link to="project" smooth={true} offset={50} duration={500}>Proyectos</Link></p>
               </div>
             </div>
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
-          <p>Todos los derechos reservados. Creado por FM - 2023.</p>        
+          <p>Creado por FM - 2023.</p>        
               <p>Web alojada en Github Pages.</p>  
           </Col>
         </Row>
